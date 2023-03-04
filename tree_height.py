@@ -35,7 +35,7 @@ def main():
                     print (compute_height(n,parents))
 
             except FileNotFoundError:
-                return print("wrong")
+                return print("File_not_found_error")
         if 'I' in ievade:
             n = int(input())
             parents = numpy.array(list(map(int, input().split())))

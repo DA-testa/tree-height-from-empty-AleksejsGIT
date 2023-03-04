@@ -36,10 +36,10 @@ def main():
 
             except FileNotFoundError:
                 return print("File_not_found_error")
-        if 'I' in ievade:
-            n = int(input())
-            parents = numpy.array(list(map(int, input().split())))
-            print(compute_height(n,parents))
+    if 'I' in ievade:
+        n = int(input())
+        parents = numpy.array(list(map(int, input().split())))
+        print(compute_height(n,parents))
 
 
 # In Python, the default limit on recursion depth is rather low,

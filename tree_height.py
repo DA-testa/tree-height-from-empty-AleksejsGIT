@@ -15,10 +15,10 @@ def compute_height(n, parents):
                 if main not in lib:
                     bar = main
                     max_height = max_height + 1
-            else:
-                max_height = max_height + lib[main]
-                break
-        lib[i] = max_height
+                else:
+                    max_height = max_height + lib[main]
+                    break
+            lib[i] = max_height
     return max(lib.values())
 
 

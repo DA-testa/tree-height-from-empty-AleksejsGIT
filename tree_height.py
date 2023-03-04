@@ -26,7 +26,7 @@ def main():
     ievade = input()
     if "F" in ievade:
         fails = input()
-        fails = "BR/" + fails
+        fails = "test/" + fails # nu nevar būt, ka šis traucēja
         if 'a' not in fails:
             try:
                 with open(fails, "r") as f:
